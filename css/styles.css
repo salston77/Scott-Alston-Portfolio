@@ -6,3 +6,41 @@ body, html {
   box-sizing: border-box;
 }
 
+.wrapper {
+  width: auto;
+  padding: 0 5px;
+}
+
+.navbar {
+  margin-bottom: 1rem;
+  background-color: rgb(167, 155, 155);
+  
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("/images/colorGameCode3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  opacity: 1;
+}
+
+.card-body {
+  background-color: darkgray;
+}
+
+.card-title, .card-text {
+  text-align: center;
+}
+
+#fadeIn {
+  opacity: 0;
+  transition: 1s;
+}
+
+#fadeInLonger {
+  opacity: 0;
+  transition: 6s;
+}
