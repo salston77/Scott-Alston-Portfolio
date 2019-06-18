@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-scroll" data-offset="100" >
   <div class="wrapper">
-    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light">
+    <nav id="navbar-scroll" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand navbar-expand-xs justify-content-" href="#">Scott Alston Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,12 +20,12 @@
             <a class="nav-item nav-link" href="#Home">Home</a>
             <a class="nav-item nav-link" href="#About">About</a>
             <a class="nav-item nav-link" href="#Sampling">Sampling</a>
-            <a class="nav-item nav-link" href="#Contacts">Contact</a>
+            <a class="nav-item nav-link" href="#Contact">Contact</a>
           </div>
         </div>
       </div>
     </nav>
-    <div data-spy="scroll" data-target="#navbar" data-offset="0">
+    <div>
       <div id="Home" class="jumbotron jumbotron-fluid active">
         <div class="container">
           <h1 id="fadeIn" class="display-4">Hello!</h1> <br/><br/><h1 id="fadeInLonger" class="display-4">Thanks for stopping by, let me show you some things.</h1>
@@ -39,6 +39,9 @@
         <div class='col-lg-12 '>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id convallis neque. Maecenas mauris ligula, viverra a eros ut, mollis bibendum nibh. Cras vel sollicitudin tortor, vitae lacinia est. Pellentesque vitae tristique urna. Nunc at ex nec risus egestas sodales vitae eu eros. In non finibus nisl, vehicula congue massa. Pellentesque congue mollis tellus eu efficitur. Praesent pharetra convallis massa, sit amet consequat nibh tincidunt eu. Aliquam erat volutpat.</p>
           <p>Nulla diam erat, bibendum at commodo non, blandit vulputate quam. Cras vitae justo eu elit dapibus commodo. Vivamus nec eros nisi. Nam a ex nec erat commodo accumsan vel eu ipsum. Proin ultricies, quam sed accumsan malesuada, elit lectus molestie dui, euismod lobortis velit sapien quis quam. Donec non mi vel arcu viverra mattis. Nulla facilisi. Etiam ultricies cursus orci, et varius velit interdum id. Fusce non nulla laoreet, finibus ex at, imperdiet sem. Donec in scelerisque dolor. Vivamus vel ex ut lacus hendrerit tincidunt. Mauris pulvinar sem vel rhoncus tristique.</p>
+          <p>Maecenas mattis aliquet lacus non aliquam. Donec sit amet vulputate nibh, id vestibulum neque. Curabitur congue, purus ut dignissim suscipit, odio turpis luctus odio, sed mattis ipsum nisl ac justo. Cras aliquam augue ut ante rhoncus facilisis. Fusce sed volutpat enim. Aliquam erat volutpat. Donec bibendum neque at malesuada aliquam. Praesent eu ex urna. Nam imperdiet tellus nec turpis bibendum, vitae interdum lectus sagittis. Nunc consequat nunc lectus, sit amet finibus elit commodo at. Cras ac dui viverra mauris blandit commodo eget at nibh. Integer dignissim risus quam, in facilisis ipsum ullamcorper at. Praesent consequat lacus orci, sed ultrices lectus efficitur a. Nullam nec gravida arcu, sed condimentum lacus. Vestibulum at lectus ac lacus ullamcorper sagittis id eget metus. Duis at finibus est, quis ullamcorper urna.</p>
+          <p>Nam ornare vehicula sodales. Maecenas aliquet dui non purus consequat laoreet. Donec egestas ante felis, in mollis nisl efficitur vel. Cras est ipsum, congue in massa eu, bibendum scelerisque turpis. Fusce pellentesque sit amet quam eget molestie. Integer sit amet ex eu tortor hendrerit placerat sed id ipsum. Suspendisse luctus quis massa vel dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nibh turpis, gravida feugiat dictum ut, lacinia vitae quam. Sed lobortis ullamcorper ligula, non pulvinar est viverra at. Quisque non nibh ut mi semper rhoncus a eget ante. Duis consectetur odio suscipit, ullamcorper mauris non, faucibus leo.</p>
+          <p>Donec mauris augue, accumsan a pretium nec, dictum eget dui. Phasellus turpis magna, rhoncus vitae condimentum ut, aliquam quis odio. Cras feugiat risus dolor, vel vestibulum libero eleifend non. Suspendisse vitae nibh odio. Vivamus varius at quam id commodo. Pellentesque volutpat consectetur tristique. Aenean interdum lectus et mollis vulputate. Etiam vehicula quam nulla, vitae ullamcorper eros faucibus quis. Mauris nunc turpis, facilisis quis ultrices a, suscipit id ante. Nullam quis aliquam arcu. Integer eros metus, pharetra ac sapien ut, viverra semper mauris. Praesent posuere velit vitae ex condimentum, in auctor mi consequat. Etiam ut commodo felis.</p>
         </div>
       
       <br/>
@@ -73,9 +76,24 @@
             </div>
           </div>
         </div>
-      </div>       
+      </div> 
+      <br />
+      <hr>  
+      <br />
+      <h1 id="Contact" class="display-12 text-center my-5">Contact Info:</h1>
+      <div >
+        <div>
+          <table class="table table-striped col-lg-4 "> 
+            <tr><td>Name:</td><td>Scott Alston</td></tr>
+            <tr><td>Email:</td><td>salston77@gmail.com</td></tr>
+            <tr><td>Phone:</td><td>555-555-5555</td></tr>
+            <tr><td>GitHub:</td><td>WebSpotScott</td></tr>
+          </table>
+        </div>
+      </div>   
     </div>
   </div>
+  <footer class=" footer-Ex page-footer font-small  "><p>Lorem ipsum dolor sit amet</p><script type="text/javascript">DateTime();</script></footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
