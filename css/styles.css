@@ -2,6 +2,7 @@ body, html {
   height: 100%;
   position: relative;
   background-color: rgb(165, 207, 250);
+  width: auto;
 }
 
 * {
@@ -10,7 +11,12 @@ body, html {
 
 
 footer {
-  flex-direction: row-reverse;
+  flex-direction: row;
+}
+
+.container-fluid {
+ padding-left: 0px;
+ padding-right: 0px;
 }
 
 .wrapper {
@@ -22,7 +28,6 @@ footer {
   margin-bottom: 1rem;
   background-color: darkgray;
 }
-
 
 .jumbotron {
   color: white;
@@ -55,6 +60,9 @@ footer {
   margin: auto;
 }
 
+footer p {
+  display: inline;
+}
 
 #fadeIn {
   opacity: 0;
