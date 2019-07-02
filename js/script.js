@@ -5,8 +5,8 @@ function dateTime() {
     var time = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
     var dateTime = date+' '+time; 
     return dateTime;
-    document.write(dateTime());
 }
+document.write(dateTime());
 
 
 

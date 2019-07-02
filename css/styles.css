@@ -1,22 +1,12 @@
 body, html {
   height: 100%;
+  min-width: 100%;
   position: relative;
-  background-color: rgb(165, 207, 250);
-  width: auto;
+  background-color: rgb(226, 240, 255);
 }
 
 * {
   box-sizing: border-box;
-}
-
-
-footer {
-  flex-direction: row;
-}
-
-.container-fluid {
- padding-left: 0px;
- padding-right: 0px;
 }
 
 .wrapper {
