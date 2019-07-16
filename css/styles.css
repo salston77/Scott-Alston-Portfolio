@@ -22,7 +22,7 @@ body, html {
 .jumbotron {
   color: white;
   margin-top: 10px;
-  background-image: url("/images/colorGameCode3.png");
+  background-image: url("../images/colorGameCode3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
