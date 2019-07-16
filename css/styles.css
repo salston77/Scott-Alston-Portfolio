@@ -9,6 +9,13 @@ body, html {
   box-sizing: border-box;
 }
 
+footer p {
+  display: inline;
+  padding-top: 1rem;
+}
+
+/* CSS for Classes  */
+
 .wrapper {
   width: auto;
   padding: 0 5px;
@@ -26,25 +33,13 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
+  height: 700px;
   opacity: 1;
 }
-
+ 
 .carousel {
   width: 80%;
   margin: auto;
-}
-
-#colorGameH2 {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-}
-
-
-#contactTable {
-  padding-bottom: 100px;
- 
 }
 
 .table {
@@ -59,9 +54,18 @@ body, html {
   margin: auto;
 }
 
-footer p {
-  display: inline;
-  padding-top: 1rem;
+/* CSS for IDs */
+
+#colorGameH2 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+
+#contactTable {
+  padding-bottom: 100px;
+ 
 }
 
 #fadeIn {
@@ -72,4 +76,15 @@ footer p {
 #fadeInLonger {
   opacity: 0;
   transition: 6s;
+}
+
+
+
+/*  this media query is for the jumbotron, to decrease its height when the screen size is smaller */
+
+@media (max-width: 756px) {
+  .jumbotron {
+    height: 450px;
+    font-size: 18px;
+  }
 }
