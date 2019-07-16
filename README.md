@@ -1,3 +1,3 @@
 # Scott-Alston-Portfolio
 
-[Go to my PAGE!!!!](https://github.com:salston77/Scott-Alston-Portfolio)
+[Check out my Page](https://salston77.github.io/Scott-Alston-Portfolio/)
