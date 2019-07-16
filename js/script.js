@@ -1,4 +1,5 @@
-/* JavaScript function to get the current time. Displayed in footer on html page */
+/* JavaScript function to get the current time. Displayed in footer on html page  Hope to be able to use this to check when people visit page
+That functionality is to come if I continue with this site.*/
 function dateTime() {
     var today = new Date();
     var date = today.getMonth() + 1 + '-' +today.getDay() + '-' + today.getFullYear();
