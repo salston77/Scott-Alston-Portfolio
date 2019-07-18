@@ -11,7 +11,7 @@ function dateTime() {
 
 
 
-/* JavaScript function, When the window loads 2 text fields fade in at different speeds. */
+/* JavaScript function, When the window loads, 2 text fields fade in at different speeds. */
 window.onload = function() {
     document.getElementById("fadeIn").style.opacity = 1;
     document.getElementById("fadeInLonger").style.opacity = 1;
